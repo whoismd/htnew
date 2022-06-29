@@ -1,0 +1,26 @@
+var header = document.querySelector('#main-header'); 61 header.style.borderBottom= 'solid 4px #ccc';
+var input = document.querySelector('input');
+input.value = 'Hello World'
+var submit = document.querySelector('input[type="submit"]');
+submit.value="SEND"
+var item = document.querySelector('.list-group-item');
+item.style.color 'red';
+lastItem.style.color = 'blue';
+var lastItem = document.querySelector (.list-group-item:last-child');
+var secondItem = document.querySelector
+('.list-group-item:nth-child(2)');
+secondItem.style.color = 'green';
+var thirdItem = document.querySelector
+('.list-group-item:nth-child(3)');
+thirdItem.style.color = 'white';
+
+
+//queryselectorall
+var titles= document.querySelectorAll('.title');
+console.log(titles);
+titles[0].textContent
+var odd = document.querySelectorAll('li:nth-child(odd)"); var even document.querySelectorAll('li:nth-child(even)');
+for (var i = 0; i < odd.length; i++){ 
+odd[i].style.backgroundColor='green';
+ even[i].style.backgroundColor = 'green';
+}
